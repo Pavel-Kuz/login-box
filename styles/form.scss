@@ -1,0 +1,93 @@
+form{
+    width: 37.5rem;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    border: .3rem;
+    overflow: hidden;
+    text-align: center;
+
+    .links{
+        background: #fff;
+        padding: 1.8rem .9rem;
+
+        .title{
+            font-size: 1.2rem;
+            padding-bottom: 0.9rem;
+            color: #666;
+        }
+        .buttons{
+            .btn{
+                font-size: 1.2rem;
+                margin: 0.3rem;
+                display: inline-block;
+                background: $light-bl;
+                border: $border;
+                border-radius: .3rem;
+                padding: .7rem 1.9rem;
+                color: #333;
+                &:hover {
+                    color: #fff;
+                    background: $blue;
+                }
+                &:hover i {
+                    color: #fff;
+                }
+                i{
+                    color: #333;
+                    padding-right: 0.3rem;
+                }
+            }
+        }
+    }
+    .input-box{
+        padding: 1.9rem;
+        background: $light-bl;
+        .input{
+            margin: 0.9rem auto;
+            display: flex;
+            align-items: center;
+            height: 3.2rem;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 5px 10px rgba(0,0,0,.1);
+            border: $border;
+
+            input{
+                height: 100%;
+                width: 100%;
+                padding: 1.2rem;
+                font-size: 1.1rem;
+                color: #333;
+            }
+
+            span {
+               color: #999;
+               padding-right: 0.3rem;
+               padding-left: 0.9rem;
+               font-size: 1.3rem;
+            }
+        }
+    }
+    .checkbox{
+        text-align: left;
+        padding: .3rem 0;
+
+        label{
+            font-size: 1.4rem;
+            color: #333;
+            cursor: pointer;
+        }
+    }
+    .sing-in-btn{
+        padding: .7rem 2.5rem;
+        margin-top: 0.7rem;
+        font-size: 1.3rem;
+        color: #fff;
+        border-radius: .3rem;
+        background: $blue;
+        cursor: pointer;
+        transition: .2s linear;
+        &:hover{
+            letter-spacing: .1rem;
+        }
+    }
+}
